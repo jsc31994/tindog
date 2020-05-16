@@ -33,9 +33,10 @@ h2 {
    position: absolute;
    right: 30%;
 }
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 250px) {
    .container-fluid {
-      padding: 3% 3% 7%;
+      padding: 3% 5% 7%;
+      border-width: 0;
    }
 
    #title {
