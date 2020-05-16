@@ -41,7 +41,7 @@ h3 {
    position: absolute;
    right: 30%;
 }
-@media (max-width: 767px) and (min-width: 300px) {
+@media (max-width: 767px) and (min-width: 200px) {
    .container-fluid {
       padding: 3% 5% 7%;
       border-width: 0;
