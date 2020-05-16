@@ -33,7 +33,30 @@ h2 {
    position: absolute;
    right: 30%;
 }
+@media (max-width: 767px) {
+   .container-fluid {
+      padding: 3% 3% 7%;
+   }
 
+   #title {
+      text-align: center;
+   }
+
+   .main-img {
+      position: static;
+      transform: rotate(0);
+   }
+}
+
+@media (max-width: 991px) {
+   .main-img {
+      position: static;
+      transform: rotate(0);
+   }
+   #title {
+      text-align: center;
+   }
+}
 /* Navigation Bar */
 
 .navbar-brand {
@@ -66,6 +89,7 @@ h2 {
    padding: 80px;
    background-color: white;
    position: relative;
+   z-index: 1;
 }
 
 .info-box {
